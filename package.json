@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test" : "jest",
-    "jest" : "echo \"Error: no test specified\" && exit 1"
-
+    "test": "jest",
+    "jest": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,5 +19,8 @@
   "homepage": "https://github.com/ChauDeveloper/jest-another-RPG#readme",
   "devDependencies": {
     "jest": "^27.4.5"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
   }
 }
